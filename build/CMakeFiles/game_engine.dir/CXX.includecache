@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/game_loop.h
+
+../src/include/window.h
+
+/home/josch/game_engine/src/main.cpp
+window.h
+/home/josch/game_engine/src/window.h
+game_loop.h
+/home/josch/game_engine/src/game_loop.h
+stdio.h
+-
+iostream
+-
+stdlib.h
+-
+
