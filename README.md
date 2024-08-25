@@ -1,0 +1,1 @@
+This project is for me to learn how to make a game engine in c++
