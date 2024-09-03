@@ -1,17 +1,17 @@
 [
 {
   "directory": "/home/josch/game_engine/build",
-  "command": "/usr/bin/c++   -I/home/josch/game_engine/src/include  -g   -o CMakeFiles/game_engine.dir/src/main.cpp.o -c /home/josch/game_engine/src/main.cpp",
+  "command": "/usr/bin/g++   -I/home/josch/game_engine/src/include  -g   -o CMakeFiles/game_engine.dir/src/main.cpp.o -c /home/josch/game_engine/src/main.cpp",
   "file": "/home/josch/game_engine/src/main.cpp"
 },
 {
   "directory": "/home/josch/game_engine/build",
-  "command": "/usr/bin/c++   -I/home/josch/game_engine/src/include  -g   -o CMakeFiles/game_engine.dir/src/window.cpp.o -c /home/josch/game_engine/src/window.cpp",
+  "command": "/usr/bin/g++   -I/home/josch/game_engine/src/include  -g   -o CMakeFiles/game_engine.dir/src/window.cpp.o -c /home/josch/game_engine/src/window.cpp",
   "file": "/home/josch/game_engine/src/window.cpp"
 },
 {
   "directory": "/home/josch/game_engine/build",
-  "command": "/usr/bin/c++   -I/home/josch/game_engine/src/include  -g   -o CMakeFiles/game_engine.dir/src/game_loop.cpp.o -c /home/josch/game_engine/src/game_loop.cpp",
+  "command": "/usr/bin/g++   -I/home/josch/game_engine/src/include  -g   -o CMakeFiles/game_engine.dir/src/game_loop.cpp.o -c /home/josch/game_engine/src/game_loop.cpp",
   "file": "/home/josch/game_engine/src/game_loop.cpp"
 }
 ]

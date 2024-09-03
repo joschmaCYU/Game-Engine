@@ -1,6 +1,9 @@
 #include <GLFW/glfw3.h>
 #include <cstdio>
 #include <cstdlib> 
+#include "window.h"
+#include "game_loop.h"
+#include <iostream>
 
 void initGLFW() {
     if (!glfwInit()) {
@@ -13,12 +16,11 @@ void error_callback(int error, const char* description) {
 }
 
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods) {
-    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, GLFW_TRUE);
+    addKeyToProcess(window, key, scancode, action, mods);
+    std::cout << "Key: " << key << std::endl;
 }
 
-
-void createWindow(int width, int height, const char* title) {
+GLFWwindow* createWindow(int width, int height, const char* title) {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
@@ -34,8 +36,9 @@ void createWindow(int width, int height, const char* title) {
 
     glfwMakeContextCurrent(window);
 
-    while (!glfwWindowShouldClose(window)) {
+    /*while (!glfwWindowShouldClose(window)) {
         glfwSwapBuffers(window);
         glfwPollEvents();
-    }
+    }*/
+   return window;
 }

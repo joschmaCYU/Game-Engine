@@ -60,41 +60,41 @@ include CMakeFiles/game_engine.dir/flags.make
 CMakeFiles/game_engine.dir/src/main.cpp.o: CMakeFiles/game_engine.dir/flags.make
 CMakeFiles/game_engine.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josch/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_engine.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_engine.dir/src/main.cpp.o -c /home/josch/game_engine/src/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_engine.dir/src/main.cpp.o -c /home/josch/game_engine/src/main.cpp
 
 CMakeFiles/game_engine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josch/game_engine/src/main.cpp > CMakeFiles/game_engine.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josch/game_engine/src/main.cpp > CMakeFiles/game_engine.dir/src/main.cpp.i
 
 CMakeFiles/game_engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josch/game_engine/src/main.cpp -o CMakeFiles/game_engine.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josch/game_engine/src/main.cpp -o CMakeFiles/game_engine.dir/src/main.cpp.s
 
 CMakeFiles/game_engine.dir/src/window.cpp.o: CMakeFiles/game_engine.dir/flags.make
 CMakeFiles/game_engine.dir/src/window.cpp.o: ../src/window.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josch/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_engine.dir/src/window.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_engine.dir/src/window.cpp.o -c /home/josch/game_engine/src/window.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_engine.dir/src/window.cpp.o -c /home/josch/game_engine/src/window.cpp
 
 CMakeFiles/game_engine.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josch/game_engine/src/window.cpp > CMakeFiles/game_engine.dir/src/window.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josch/game_engine/src/window.cpp > CMakeFiles/game_engine.dir/src/window.cpp.i
 
 CMakeFiles/game_engine.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josch/game_engine/src/window.cpp -o CMakeFiles/game_engine.dir/src/window.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josch/game_engine/src/window.cpp -o CMakeFiles/game_engine.dir/src/window.cpp.s
 
 CMakeFiles/game_engine.dir/src/game_loop.cpp.o: CMakeFiles/game_engine.dir/flags.make
 CMakeFiles/game_engine.dir/src/game_loop.cpp.o: ../src/game_loop.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/josch/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_engine.dir/src/game_loop.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_engine.dir/src/game_loop.cpp.o -c /home/josch/game_engine/src/game_loop.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_engine.dir/src/game_loop.cpp.o -c /home/josch/game_engine/src/game_loop.cpp
 
 CMakeFiles/game_engine.dir/src/game_loop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_engine.dir/src/game_loop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josch/game_engine/src/game_loop.cpp > CMakeFiles/game_engine.dir/src/game_loop.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/josch/game_engine/src/game_loop.cpp > CMakeFiles/game_engine.dir/src/game_loop.cpp.i
 
 CMakeFiles/game_engine.dir/src/game_loop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_engine.dir/src/game_loop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josch/game_engine/src/game_loop.cpp -o CMakeFiles/game_engine.dir/src/game_loop.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/josch/game_engine/src/game_loop.cpp -o CMakeFiles/game_engine.dir/src/game_loop.cpp.s
 
 # Object files for target game_engine
 game_engine_OBJECTS = \

@@ -3,9 +3,12 @@
 
 CMakeFiles/game_engine.dir/src/game_loop.cpp.o
  /home/josch/game_engine/src/game_loop.cpp
+ /home/josch/game_engine/src/include/window.h
 CMakeFiles/game_engine.dir/src/main.cpp.o
- ../src/include/game_loop.h
- ../src/include/window.h
+ /home/josch/game_engine/src/include/game_loop.h
+ /home/josch/game_engine/src/include/window.h
  /home/josch/game_engine/src/main.cpp
 CMakeFiles/game_engine.dir/src/window.cpp.o
+ ../src/include/game_loop.h
+ ../src/include/window.h
  /home/josch/game_engine/src/window.cpp

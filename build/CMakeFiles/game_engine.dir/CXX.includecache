@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../src/include/game_loop.h
-
-../src/include/window.h
-
-/home/josch/game_engine/src/main.cpp
-window.h
-/home/josch/game_engine/src/window.h
-game_loop.h
-/home/josch/game_engine/src/game_loop.h
-stdio.h
+/home/josch/game_engine/src/game_loop.cpp
+ctime
+-
+GLFW/glfw3.h
 -
 iostream
 -
-stdlib.h
+vector
+-
+include/window.h
+/home/josch/game_engine/src/include/window.h
+
+/home/josch/game_engine/src/include/window.h
+GLFW/glfw3.h
 -
 
